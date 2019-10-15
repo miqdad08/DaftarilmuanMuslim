@@ -14,6 +14,9 @@ public class Detail_ilmuan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_ilmuan);
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+
         web = findViewById(R.id.web);
 
         Intent intent = getIntent();
